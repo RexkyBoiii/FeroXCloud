@@ -113,11 +113,11 @@ export default function PricingPage() {
                 <motion.span
                   layoutId="billing-pill"
                   className="absolute inset-0 rounded-xl bg-white"
-                  style={{ zIndex: -1 }}
+                  style={{ zIndex: 0 }}
                   transition={{ type: "spring", bounce: 0.2, duration: 0.35 }}
                 />
               )}
-              Monthly
+              <span className="relative z-10">Monthly</span>
             </motion.button>
             <motion.button
               onClick={() => setAnnual(true)}
@@ -128,11 +128,11 @@ export default function PricingPage() {
                 <motion.span
                   layoutId="billing-pill"
                   className="absolute inset-0 rounded-xl bg-white"
-                  style={{ zIndex: -1 }}
+                  style={{ zIndex: 0 }}
                   transition={{ type: "spring", bounce: 0.2, duration: 0.35 }}
                 />
               )}
-              Annual
+              <span className="relative z-10">Annual</span>
               <span className={`text-[11px] font-semibold px-2 py-0.5 rounded-full z-10 relative ${annual ? "bg-black/10 text-black" : "bg-emerald-500/20 text-emerald-400"}`}>
                 -20%
               </span>

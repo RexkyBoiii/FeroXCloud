@@ -212,7 +212,7 @@ export default function LandingPage() {
                   className="relative z-10 w-24 h-24 rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(255,255,255,0.12)]"
                 >
                   <img
-                    src="https://cdn.discordapp.com/attachments/1497824946578264254/1497825045756641360/IMG_20260418_084051.png?ex=69fa2287&is=69f8d107&hm=066527a9e158555b3f4d00ccbd44e1719eabf05f8756259a6b12a25b478ac059&"
+                    src="https://cdn.discordapp.com/attachments/1487438660352606288/1514449567859343492/IMG_20260611_073141.png?ex=6a2b6892&is=6a2a1712&hm=81f45df6b96b3272b076c6374c837423a2247cf08e005b2b89cb0a3c649a2122"
                     alt="FeroX Cloud"
                     className="w-full h-full object-cover"
                   />
